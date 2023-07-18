@@ -5,7 +5,7 @@ import * as dat from 'lil-gui'
 THREE.ColorManagement.enabled = false
 
 /**
- * Base
+ * Base 
  */
 // Debug
 const gui = new dat.GUI({ width: 340 })
