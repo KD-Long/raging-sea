@@ -114,8 +114,8 @@ const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height, 0.1, 
 camera.position.set(1, 1, 1)
 scene.add(camera)
 
-const axesHelper = new THREE.AxesHelper(2)
-scene.add(axesHelper)
+// const axesHelper = new THREE.AxesHelper(2)
+// scene.add(axesHelper)
 
 // Controls
 const controls = new OrbitControls(camera, canvas)
